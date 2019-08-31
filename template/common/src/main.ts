@@ -2,14 +2,14 @@ import './registerServiceWorker';
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-<%_ if (options.vuex) { _%>
+    <%_ if (options.vuex) { _%>
 import store from './store';
-<%_ } _%>
-<%_ if (options.i18n) { _%>
+    <%_ } _%>
+    <%_ if (options.i18n) { _%>
 import i18n from './i18n';
-<%_ } _%>
+    <%_ } _%>
 
-<%_ if (options.theme) { _%>
+<%_ if (options.element) { _%>
 import ElementUI from 'element-ui';
 import './theme/element-mixin.scss';
 Vue.use(ElementUI);
