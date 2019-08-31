@@ -3,17 +3,17 @@
 
     "plugins": {
         "@vue/cli-plugin-babel": {
-            "version": "^3.9.0"
+            "version": "^3.11.0"
         },
         "@vue/cli-plugin-typescript": {
-            "version": "^3.9.0",
+            "version": "^3.11.0",
             "classComponent": true,
             "tsLint": true,
             "lintOn": ["save", "commit"],
             "useTsWithBabel": true
         },
         "@vue/cli-plugin-pwa": {
-            "version": "^3.9.0"
+            "version": "^3.11.0"
         }
     },
     "configs": {
