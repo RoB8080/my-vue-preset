@@ -1,0 +1,43 @@
+{
+    "useConfigFiles": true,
+
+    "plugins": {
+        "@vue/cli-plugin-babel": {
+            "version": "^3.9.0"
+        },
+        "@vue/cli-plugin-typescript": {
+            "version": "^3.9.0",
+            "classComponent": true,
+            "tsLint": true,
+            "lintOn": ["save", "commit"],
+            "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-pwa": {
+            "version": "^3.9.0"
+        },
+        "@vue/cli-plugin-e2e-cypress": {
+            "version": "^3.9.0"
+        }
+    },
+    "configs": {
+        "vue": {
+            "outputDir": "dist",
+            "assetsDir": "static",
+            "filenameHashing": true,
+            "runtimeCompiler": false,
+            "transpileDependencies": [],
+            "productionSourceMap": false,
+            "css": {
+                "loaderOptions": {
+                    "sass": {
+                        "data": "@import \"~@/theme/variables.scss\";"
+                    }
+                }
+            }
+        }
+    },
+    "router": true,
+    "routerHistoryMode": true,
+    "vuex": false,
+    "cssPreprocessor": "node-sass"
+}

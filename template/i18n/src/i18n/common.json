@@ -1,0 +1,12 @@
+{
+    "en": {
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "notice": "Notice"
+    },
+    "zh-cn": {
+        "confirm": "确认",
+        "cancel": "取消",
+        "notice": "提示"
+    }
+}
