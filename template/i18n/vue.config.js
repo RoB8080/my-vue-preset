@@ -1,5 +1,5 @@
 ---
-extend: '@vue/cli-service/generator/template/src/main.ts'
+extend: '@vue/cli-service/generator/template/vue.config.js'
 replace: !!js/regexp /module.exports = {/
 ---
 

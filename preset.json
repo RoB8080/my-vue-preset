@@ -14,9 +14,6 @@
         },
         "@vue/cli-plugin-pwa": {
             "version": "^3.9.0"
-        },
-        "@vue/cli-plugin-e2e-cypress": {
-            "version": "^3.9.0"
         }
     },
     "configs": {
